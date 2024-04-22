@@ -318,16 +318,16 @@ button:focus {
 
 
 .item {
-    background-color: #ffffff00;
+    background-color: #0828304e;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.548);
     transition: box-shadow 0.3s ease-in-out;
     padding: 20px;
     text-align: center;
 }
 
 .item:hover {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.37);
 }
 
 .item-icon {
@@ -349,20 +349,20 @@ button:focus {
 /* 5 -------- About Section Styles --------*/
 
 .about-breifing .item {
-    color: #ffffff;
+    color: #b4fbfb;
     padding: 0px 15%;
 }
 .about-breifing .col-sm-6:first-child {
-    background: #22bebe;
+    background: #22bebe00;
 }
 .about-breifing .col-sm-6:nth-child(2) {
-    background: #22bebe;
+    background: #22bebe00;
 }
 .about-breifing .col-sm-6:nth-child(3) {
-    background: #22bebe;
+    background: #22bebe00;
 }
 .about-breifing .col-sm-6:nth-child(4) {
-    background: #22bebe;
+    background: #22bebe00;
 }
 .item-no .count {
     font-size: 6.25em;
@@ -402,7 +402,7 @@ button:focus {
     margin-bottom: 15px;
 }
 .progress-bar {
-    background: #22bebe;
+    background: #22bebefe;
     font-size: 13px;
     line-height: 30px;
     padding-left: 25px;
@@ -538,7 +538,7 @@ button:focus {
     text-transform: capitalize;
 }
 .itemFilter .current {
-    background-color: #22bebe;
+    background-color: #22bebe00;
     border-color: #22bebe;
     color: #ffffff;
 }
@@ -625,7 +625,7 @@ button:focus {
 /* 8 ------- Sponsors Section Styles -------*/
 
 .sponsors {
-    background: url(../../images/background/2.jpg) no-repeat center center fixed;
+    background: url(../../images/bg.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .section-pattern {
