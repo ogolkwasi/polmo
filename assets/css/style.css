@@ -57,7 +57,7 @@ body {
     -webkit-font-smoothing: subpixel-antialiased !important;
     -moz-font-smoothing: subpixel-antialiased !important;
     -ms-font-smoothing: subpixel-antialiased !important;
-    -0-font-smoothing: subpixel-antialiased !important;
+    -o-font-smoothing: subpixel-antialiased !important;
     text-rendering: optimizeLegibility !important;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -65,7 +65,7 @@ body {
     -moz-overflow-scrolling: touch;
     -ms-overflow-scrolling: touch;
     -o-overflow-scrolling: touch;
-    overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
 }
 a {
     text-decoration: none;
@@ -81,7 +81,7 @@ a:focus {
     outline-offset: 0;
 }
 a:hover {
-    color: #e74c3c;
+    color: #22bebe;
     text-decoration: none;
 }
 p {
@@ -121,14 +121,14 @@ button:focus {
 /* Mozilla based browsers */
 
 ::-moz-selection {
-    background-color: #e74c3c;
+    background-color: #22bebe;
     color: #ffffff;
 }
 /* Works in Safari */
 
 ::selection {
-    background-color: #e74c3c;
-    color: #ffffff;
+    background-color:#22bebe ;
+     color: #ffffff;
 }
 .btn:focus,
 .btn:active:focus,
@@ -152,7 +152,7 @@ button:focus {
     text-transform: capitalize;
 }
 .section-title span {
-    color: #e74c3c;
+    color: #22bebe;
     ;
 }
 .section-description {
@@ -260,19 +260,19 @@ button:focus {
     transition: all .3s ease-in-out;
 }
 .service-details .col-sm-6:first-child .item {
-    border: 1px solid #e74c3c;
+    border: 1px solid #22bebe;
 }
 .service-details .col-sm-6:nth-child(2) .item {
     border: 1px solid #7dbb18;
 }
 .service-details .col-sm-6:nth-child(3) .item {
-    border: 1px solid #00cccc;
+    border: 1px solid #22bebe;
 }
 .service-details .col-sm-6:nth-child(4) .item {
     border: 1px solid #ffcc00;
 }
 .service-details .col-sm-6:first-child .item-icon {
-    color: #e74c3c;
+    color: #22bebe;
 }
 .service-details .col-sm-6:nth-child(2) .item-icon {
     color: #7dbb18;
@@ -284,13 +284,13 @@ button:focus {
     color: #ffcc00;
 }
 .service-details .col-sm-6:first-child .item:hover {
-    background: #e74c3c;
+    background: #22bebe;
 }
 .service-details .col-sm-6:nth-child(2) .item:hover {
     background: #7dbb18;
 }
 .service-details .col-sm-6:nth-child(3) .item:hover {
-    background: #00cccc;
+    background: #22bebe;
 }
 .service-details .col-sm-6:nth-child(4) .item:hover {
     background: #ffcc00;
@@ -313,16 +313,16 @@ button:focus {
     padding: 0px 15%;
 }
 .about-breifing .col-sm-6:first-child {
-    background: #e6675a;
+    background: #22bebe;
 }
 .about-breifing .col-sm-6:nth-child(2) {
-    background: #e65d4e;
+    background: #22bebe;
 }
 .about-breifing .col-sm-6:nth-child(3) {
-    background: #e65243;
+    background: #22bebe;
 }
 .about-breifing .col-sm-6:nth-child(4) {
-    background: #e74c3c;
+    background: #22bebe;
 }
 .item-no .count {
     font-size: 6.25em;
@@ -347,10 +347,10 @@ button:focus {
     font-size: .8125em;
 }
 .about-top .btn {
-    border: 2px solid #e74c3c;
+    border: 2px solid #22bebe;
 }
 .about-top .btn:hover {
-    background: #e74c3c;
+    background: #22bebe;
     color: #ffffff;
 }
 .progress {
@@ -362,7 +362,7 @@ button:focus {
     margin-bottom: 15px;
 }
 .progress-bar {
-    background: #e74c3c;
+    background: #22bebe;
     font-size: 13px;
     line-height: 30px;
     padding-left: 25px;
@@ -390,7 +390,7 @@ button:focus {
     color: #ffffff;
 }
 .bg-overlay {
-    background-color: rgba(231, 76, 60, 0.75);
+    background-color:#22bebe;
 }
 .subscribe-section .section-description {
     color: #ffffff;
@@ -488,7 +488,7 @@ button:focus {
 }
 .itemFilter a {
     background-color: #ffffff;
-    border: 2px solid #e74c3c;
+    border: 2px solid #22bebe;
     color: #a7a7a8;
     display: inline-block;
     font-size: .8125em;
@@ -498,8 +498,8 @@ button:focus {
     text-transform: capitalize;
 }
 .itemFilter .current {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #22bebe;
+    border-color: #22bebe;
     color: #ffffff;
 }
 .project-items .item {
@@ -528,7 +528,7 @@ button:focus {
 }
 .project-items .image-popup-vertical-fit:before {
     content: '';
-    background: rgba(231, 76, 60, 0.7);
+    background: #22bebe;
     cursor: url(../../images/cursor.png) 30 30, crosshair;
     width: 0%;
     height: 100%;
@@ -574,12 +574,12 @@ button:focus {
 }
 .latest-projects .btn,
 .blog .btn {
-    border: 2px solid #e74c3c;
+    border: 2px solid #22bebe;
     padding: 13px 30px;
 }
 .latest-projects .btn:hover,
 .blog .btn:hover {
-    background-color: #e74c3c;
+    background-color: #22bebe;
     color: #ffffff;
 }
 /* 8 ------- Sponsors Section Styles -------*/
@@ -626,7 +626,7 @@ button:focus {
     color: #333333;
 }
 .blog .entry-title a:hover {
-    color: #e74c3c !important;
+    color: #22bebe !important;
 }
 .blog .entry-content {
     font-size: .8125em;
@@ -706,8 +706,8 @@ button:focus {
     border: 2px solid #e6e6e6;
 }
 .submit-btn:hover {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #22bebe;
+    border-color: #22bebe;
     color: #ffffff;
 }
 /* 12 -------- Blog Posts Page Styles ---------*/
@@ -728,7 +728,7 @@ button:focus {
     text-transform: uppercase;
 }
 .page-head .page-title span {
-    color: #e74c3c;
+    color: #22bebe;
 }
 .page-description {
     color: #ffffff;
@@ -765,7 +765,7 @@ button:focus {
     position: absolute;
 }
 .breadcrumb li.active:before {
-    background: #e74c3c;
+    background: #22bebe;
 }
 .breadcrumb>li+li:before {
     content: '';
@@ -783,7 +783,7 @@ button:focus {
     padding-top: 0px;
 }
 .post-head .entry-date {
-    background: #e74c3c;
+    background: #22bebe;
     border-radius: 0px;
     color: #ffffff;
     font-size: .75em;
@@ -807,7 +807,7 @@ button:focus {
     color: #333333;
 }
 .entry-title a:hover {
-    color: #e74c3c !important;
+    color: #22bebe !important;
 } 
 .share-post {
     display: inline-block;
@@ -823,7 +823,7 @@ button:focus {
     text-align: center;
 }
 .share-post a:hover {
-    background: #e74c3c;
+    background: #22bebe;
     color: #ffffff;
 }
 .post-meta {
@@ -855,7 +855,7 @@ button:focus {
     position: absolute;
     top: 0px;
     left: 0px;
-    color: #e74c3c;
+    color: #22bebe;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -863,7 +863,7 @@ button:focus {
     transform: rotate(90deg);
 }
 .tag-list a {
-    color: #e74c3c;
+    color: #22bebe;
     padding: 0px 5px;
     position: relative;
 }
@@ -871,7 +871,7 @@ button:focus {
     content: '';
     height: 100%;
     width: 1px;
-    background: #e74c3c;
+    background: #22bebe;
     top: 0px;
     right: -2px;
     position: absolute;
@@ -903,8 +903,8 @@ button:focus {
 .pagination>li.active a,
 .pagination>li.active a:hover {
     background: #ffffff;
-    border-color: #e74c3c;
-    color: #e74c3c;
+    border-color: #22bebe;
+    color: #22bebe;
 }
 /* 14 ------ Blog Single Post Styles -------*/
 
