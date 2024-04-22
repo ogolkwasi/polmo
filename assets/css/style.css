@@ -240,7 +240,7 @@ button:focus {
     background: #333131;
 }
 .bg-change .navbar-brand {
-    padding-top: 8px;
+    padding-top: 20px;
 }
 .bg-change .navbar-nav>li>a {
     padding: 15px 20px;
@@ -249,6 +249,7 @@ button:focus {
 
 .services .section-padding {
     padding-bottom: 0px;
+    padding-top: 10px;
 }
 .service-details .item {
     padding: 15px 15px;
@@ -326,14 +327,16 @@ button:focus {
 .item {
     background-color: #0828304e;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.548);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.91);
     transition: box-shadow 0.3s ease-in-out;
     padding: 20px;
     text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
 }
 
 .item:hover {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 8px 16px rgba(1, 51, 62, 0.732);
 }
 
 .item-icon {
@@ -344,11 +347,12 @@ button:focus {
 .item-title {
     font-size: 1.2em;
     margin-bottom: 10px;
+    color:#34f9f9;
 }
 
 .item-description {
     font-size: 0.9em;
-    color: #777;
+    color: #181c1c;
 }
 
 
