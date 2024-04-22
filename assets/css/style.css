@@ -641,7 +641,7 @@ button:focus {
 /* 8 ------- Sponsors Section Styles -------*/
 
 .sponsors {
-    background: url(../../images/bg.jpg) no-repeat center center fixed;
+    background: url(../../images/studio.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .section-pattern {
