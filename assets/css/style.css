@@ -367,12 +367,15 @@ button:focus {
 }
 .about-breifing .col-sm-6:nth-child(2) {
     background: #22bebe00;
+    margin-top: 10px;
 }
 .about-breifing .col-sm-6:nth-child(3) {
     background: #22bebe00;
+    margin-top: 10px;
 }
 .about-breifing .col-sm-6:nth-child(4) {
     background: #22bebe00;
+    margin-top: 10px;
 }
 .item-no .count {
     font-size: 6.25em;
@@ -581,7 +584,7 @@ button:focus {
 }
 .project-items .image-popup-vertical-fit:before {
     content: '';
-    background: #22bebe;
+    background: #22bebe58;
     cursor: url(../../images/cursor.png) 30 30, crosshair;
     width: 0%;
     height: 100%;
