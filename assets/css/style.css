@@ -306,6 +306,46 @@ button:focus {
 .service-details .item:hover .item-description {
     color: #ffffff;
 }
+
+
+
+
+.service-details .item-icon {
+    font-size: 3em; /* Adjust the size of the icons as needed */
+    color: #333; /* Set the color of the icons */
+}
+
+
+
+.item {
+    background-color: #ffffff00;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 20px;
+    text-align: center;
+}
+
+.item:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.item-icon {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.item-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.item-description {
+    font-size: 0.9em;
+    color: #777;
+}
+
+
 /* 5 -------- About Section Styles --------*/
 
 .about-breifing .item {
@@ -1077,7 +1117,7 @@ button:focus {
     padding: 12px 45px 12px 15px;
 }
 .search-form input:focus {
-    border-color: #e74c3c;
+    border-color: #22bebe;
     outline: 0;
 }
 .search-submit {
@@ -1149,7 +1189,7 @@ footer {
     background-color: #00bdec;
 }
 .footer-social .col-xs-4:nth-child(3) {
-    color: linear-gradient(to left, #6f0b53f7, #f42b67 );
+    color: linear-gradient(to bottom left, #6f0b53f7, #f42b67 );
 }
 .footer-social .social-icon {
     font-size: 2.8em;
