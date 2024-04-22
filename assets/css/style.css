@@ -51,7 +51,8 @@ Table of Contents End
 
 html,
 body {
-    background: #ffffff;
+    background: linear-gradient(to bottom left, #ffffff, #c8cdcfbc);
+
     font-family: 'Lato', 'Belgrano', sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: subpixel-antialiased !important;
@@ -85,7 +86,7 @@ a:hover {
     text-decoration: none;
 }
 p {
-    color: #a7a7a8;
+    color: #28282a;
     font-weight: 400;
     line-height: 23px;
 }
@@ -114,7 +115,7 @@ textarea {
 input:focus,
 textarea:focus,
 button:focus {
-    border: 1px solid #cccccc;
+    border: 1px solid #3eaabc;
     box-shadow: none;
     outline: 0 !important;
 }
@@ -182,16 +183,16 @@ button:focus {
 .media-left {
     padding: 0px;
 }
-/* 3 -------- Header Styles ---------*/
-
 .masthead {
-    background: rgba(0, 0, 0, 0.2);
+    background: grey;
     border: none;
-    border-radius: 0px;
-    box-shadow: none;
-    margin: 0px;
+    border-radius: 30px; /* Adjust border radius for a classy look */
+    box-shadow: 0px 2px 4px rgba(24, 26, 26, 0.849); /* Add box shadow for a 3D effect */
+    margin: 10px;
     z-index: 99999;
+    margin-top: 10px;
 }
+
 /*
 .navbar-brand {
     padding-top: 20px;
@@ -201,13 +202,18 @@ button:focus {
 
 /*SETTINGS*/
 .navbar-brand {
-    padding-top: 10px; /* Adjust the padding as needed */
-    padding-bottom: 20px; /* Add padding-bottom to maintain space */
-    margin-left: 5px; /* Add margin to push the logo away from the edge */
+    padding-top: 1px; /* Adjust the padding as needed */
+    padding-bottom: 40px; /* Add padding-bottom to maintain space */
+    margin-left: 1px; /* Add margin to push the logo away from the edge */
+    margin-bottom: 3px ;
 }
 
 .navbar-brand img {
     max-height: 60px; /* Adjust the max-height to make the logo smaller */
+
+ 
+    
+
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -424,6 +430,7 @@ button:focus {
 }
 /* 6 ------- Subscribe Section Styles ---------*/
 
+/*
 .subscribe-section {
     background: url(../../images/background/1.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -499,6 +506,8 @@ button:focus {
     left: 25px;
     bottom: -24px;
 }
+*/
+
 /* 7 -------- Portfolio Section Styles ---------*/
 
 .portfolio {
@@ -629,10 +638,10 @@ button:focus {
     background-size: cover;
 }
 .section-pattern {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(243, 251, 251, 0.681);
 }
 .sponsors .section-padding {
-    padding: 150px 0px;
+    padding: relative;
 }
 .sponsors .section-title {
     font-weight: 400;
@@ -653,56 +662,9 @@ button:focus {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
-/* 9 ------- Blog Section Styles --------*/
 
-.blog .post-content {
-    padding: 22px 15px;
-}
-.blog .entry-title {
-    font-size: 1em;
-    font-weight: 700;
-}
-.blog .entry-title a {
-    color: #333333;
-}
-.blog .entry-title a:hover {
-    color: #22bebe !important;
-}
-.blog .entry-content {
-    font-size: .8125em;
-    padding-top: 10px;
-}
 /* 10 ------- Testimonial Section Styles --------*/
 
-.testimonial {
-    background: url(../../images/background/3.jpg) no-repeat center center fixed;
-    background-size: cover;
-    color: #ffffff;
-}
-.pattern-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-.testimonial .section-padding {
-    padding: 110px 0px 185px 0px;
-}
-.testimonial-slider .carousel-indicators {
-    bottom: -65px;
-}
-.testimonial-slider .carousel-indicators li {
-    border: 2px solid #ffffff;
-    height: 15px;
-    width: 15px;
-}
-.testimonial-slider .carousel-indicators li.active {
-    height: 16px;
-    width: 16px;
-}
-.testimonial-slider blockquote {
-    border: none;
-    font-size: 1em;
-    font-weight: 300;
-    padding: 0px 15%;
-}
 /* 11 -------- Contact Section Styles --------*/
 
 .contact {
@@ -750,426 +712,8 @@ button:focus {
     border-color: #22bebe;
     color: #ffffff;
 }
-/* 12 -------- Blog Posts Page Styles ---------*/
 
-.page-head {
-    background: url(../../images/background/blog.jpg) no-repeat center top fixed;
-    background-size: cover;
-    color: #ffffff;
-}
-.head-overlay {
-    background: url(../../images/head-overlay.png);
-}
-.page-head .page-title {
-    font-family: 'Belgrano';
-    font-size: 3em;
-    font-weight: 400;
-    padding-top: 115px;
-    text-transform: uppercase;
-}
-.page-head .page-title span {
-    color: #22bebe;
-}
-.page-description {
-    color: #ffffff;
-    font-size: .94em;
-}
-.page-status {
-    background: #fafafa;
-}
-.breadcrumb {
-    background: #fafafa;
-    margin: 0px;
-    padding: 0px;
-}
-.breadcrumb a {
-    color: #a7a7a8;
-}
-.breadcrumb li {
-    color: #a7a7a8;
-    display: inline-block;
-    font-size: .8125em;
-    padding: 34px 8px;
-    position: relative;
-}
-.breadcrumb li:first-child {
-    padding-left: 0px;
-}
-.breadcrumb li:before {
-    content: '';
-    background: transparent;
-    height: 3px;
-    width: 16px;
-    left: 8px;
-    bottom: 0px;
-    position: absolute;
-}
-.breadcrumb li.active:before {
-    background: #22bebe;
-}
-.breadcrumb>li+li:before {
-    content: '';
-}
-/* 13 ----- Main Content Styles ------*/
 
-.main-content {
-    padding-top: 80px;
-}
-.main-content article {
-    border-bottom: 1px solid #e8e8e8;
-    padding: 100px 0px 40px 0px;
-}
-.main-content article:first-child {
-    padding-top: 0px;
-}
-.post-head .entry-date {
-    background: #22bebe;
-    border-radius: 0px;
-    color: #ffffff;
-    font-size: .75em;
-    height: 70px;
-    width: 70px;
-    overflow: hidden;
-    padding: 11px 20px 11px 20px;
-}
-.post-head .entry-date span {
-    font-size: 2.12em;
-}
-.post-head .media-body {
-    padding-left: 30px;
-}
-.entry-title {
-    display: inline-block;
-    font-size: 1.875em;
-    margin: 0px;
-}
-.entry-title a {
-    color: #333333;
-}
-.entry-title a:hover {
-    color: #22bebe !important;
-} 
-.share-post {
-    display: inline-block;
-}
-.share-post a {
-    background: #f2f2f2;
-    border-radius: 50%;
-    color: #ffffff;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-}
-.share-post a:hover {
-    background: #22bebe;
-    color: #ffffff;
-}
-.post-meta {
-    color: #a7a7a8;
-    font-size: .8125em;
-}
-.post-meta .author {
-    font-style: italic;
-}
-.entry-content {
-    font-size: .8125em;
-    line-height: 21px;
-    padding-top: 12px;
-}
-.entry-content br {
-    padding-bottom: 15px;
-}
-.post-tag {
-    font-size: .8125em;
-    padding-top: 10px;
-}
-.tag-list {
-    padding-left: 15px;
-    position: relative;
-}
-.tag-list:before {
-    content: "\f02b";
-    font-family: 'FontAwesome';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    color: #22bebe;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-.tag-list a {
-    color: #22bebe;
-    padding: 0px 5px;
-    position: relative;
-}
-.tag-list a:before {
-    content: '';
-    height: 100%;
-    width: 1px;
-    background: #22bebe;
-    top: 0px;
-    right: -2px;
-    position: absolute;
-}
-.tag-list li:last-child a:before {
-    content: '';
-    display: none;
-}
-.pagination {
-    margin: 0px;
-    padding: 68px 0px 65px 0px;
-}
-.pagination li {
-    display: inline-block;
-    font-size: .6875em;
-}
-.pagination>li>a,
-.pagination>li>span {
-    border-color: #a7a7a8;
-    border-radius: 0px !important;
-    color: #a7a7a8;
-    margin: 0px 6px;
-    padding: 7px 11px;
-}
-.pagination>li>a:hover {
-    background: #ffffff;
-    border-color: #a7a7a8;
-}
-.pagination>li.active a,
-.pagination>li.active a:hover {
-    background: #ffffff;
-    border-color: #22bebe;
-    color: #22bebe;
-}
-/* 14 ------ Blog Single Post Styles -------*/
-
-.entry-content blockquote {
-    border-color: #22bebe;
-    color: #22bebe;
-    font-size: 1em;
-    font-weight: 700;
-    margin: 37px 0px;
-    padding: 0px 0px 0px 20px;
-}
-.author-bio-container {
-    border-bottom: 1px solid #e8e8e8;
-    padding: 25px 0px 35px 0px;
-}
-.author-avatar {
-    padding-right: 30px !important;
-}
-.author-details .details-top {
-    color: #333333;
-    font-size: 1.25em;
-    font-weight: 300;
-}
-.about-author {
-    font-size: .8125em;
-    padding-top: 3px;
-}
-#respond {
-    padding-top: 25px;
-}
-#respond .title {
-    color: #333333;
-    font-size: 1.25em;
-    font-weight: 300;
-}
-.comment-form {
-    padding-top: 7px;
-}
-.comment-form .form-control {
-    border: 2px solid #e8e8e8;
-    border-radius: 0px;
-    box-shadow: none;
-    font-size: .8125em;
-    height: inherit;
-    padding: 15px 15px;
-}
-.comment-form .form-control:focus {
-    border: 2px solid #e8e8e8;
-    outline: 0;
-}
-.comment-form input {
-    margin-bottom: -1px;
-    max-width: 270px;
-}
-.comment-form .btn {
-    border: 2px solid #22bebe;
-    margin-top: 30px;
-    padding: 13px 40px;
-}
-.comment-form .btn:hover {
-    background: #22bebe;
-    color: #ffffff;
-}
-.comment-section {
-    clear: both;
-    padding-top: 75px;
-}
-.comment-author {
-    padding-right: 30px !important;
-}
-.comment .author-name {
-    font-size: 1.25em;
-    font-weight: 300;
-    text-transform: capitalize;
-}
-.comment .author-name a {
-    color: #333333;
-}
-.reply-btn {
-    color: #22bebe;
-    font-size: .93em;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 0px;
-}
-.comment-description {
-    font-size: .8125em;
-    line-height: 22px;
-    margin-bottom: 0px;
-    padding-top: 3px;
-}
-.comment-time {
-    color: #e8e8e8;
-}
-.comment .has-children {
-    padding: 45px 0px 25px 100px;
-}
-.blog-single-post .pagination a {
-    border: none;
-}
-.window-location {
-    padding: 70px 0px;
-}
-.window-location li {
-    vertical-align: text-top;
-    text-align: center;
-}
-.window-location a {
-    color: #a7a7a8;
-}
-.post-close {
-    margin-left: 20px;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-.flaticon-login12:before {
-    font-size: 2em;
-}
-/* 15 ------ Sidebar Styles ------*/
-
-.sidebar {
-    padding-left: 30px;
-}
-.sidebar .widget {
-    padding-bottom: 85px;
-}
-.sidebar .widget-title {
-    font-size: 1.25em;
-    font-weight: 300;
-    padding-bottom: 10px;
-}
-.sidebar article {
-    border: none;
-    clear: both;
-    display: inline-block;
-    padding: 0px 0px 20px 0px;
-    width: 100%;
-}
-.sidebar article:last-child {
-    padding-bottom: 0px;
-}
-.sidebar .post-thumbnail {
-    margin-right: 25px;
-    width: 70px;
-}
-.sidebar .entry-title {
-    font-size: 1em;
-}
-.sidebar .entry-title a {
-    color: #22bebe;
-    text-transform: capitalize;
-}
-.sidebar .post-meta {
-    font-size: .875em;
-    padding-top: 8px;
-}
-.sidebar .comments {
-    color: #333333;
-}
-.search-form {
-    position: relative;
-}
-.search-form input {
-    border: 2px solid #22bebe;
-    color: #22bebe;
-    font-size: .93em;
-    padding: 12px 45px 12px 15px;
-}
-.search-form input:focus {
-    border-color: #22bebe;
-    outline: 0;
-}
-.search-submit {
-    background: transparent;
-    border: none;
-    color: #22bebe;
-    top: 50%;
-    right: 0;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-top: -15px;
-    margin-right: 15px;
-}
-.search-submit:focus {
-    border: none;
-    outline: 0;
-}
-.sidebar .social-list a {
-    background: #fafafa;
-    border-radius: 50%;
-    color: #22bebe;
-    display: inline-block;
-    font-size: 1.5em;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-}
-.sidebar .social-list a:hover {
-    background: #22bebe;
-    color: #ffffff !important;
-}
-.categories-list .form-control {
-    background: #ffffff;
-    border: 1px solid #a7a7a8;
-    border-radius: 0px;
-    color: #a7a7a8;
-    height: inherit;
-    padding: 15px 15px;
-}
-.archive-list li {
-    display: block;
-}
-.archive-list a {
-    color: #a7a7a8;
-    font-size: .8125em;
-}
-.stream-list li {
-    margin: 0px 5px 8px 0px;
-    max-width: 70px;
-}
 /* 16 ------- Footer Section Styles ---------*/
 
 footer {
@@ -1189,7 +733,7 @@ footer {
     background-color: #00bdec;
 }
 .footer-social .col-xs-4:nth-child(3) {
-    color: linear-gradient(to bottom left, #6f0b53f7, #f42b67 );
+    background-color:  #f42b67;
 }
 .footer-social .social-icon {
     font-size: 2.8em;
