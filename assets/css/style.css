@@ -247,80 +247,8 @@ button:focus {
 }
 /* 4 ------- Services Section Styles --------*/
 
-.services .section-padding {
-    padding-bottom: 0px;
-    padding-top: 10px;
-}
-.service-details .item {
-    padding: 15px 15px;
-}
-.service-details .item:hover {
-    color: #ffffff;
-}
-.service-details .item,
-.service-details .item-icon,
-.service-details .item-description {
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-.service-details .col-sm-6:first-child .item {
-    border: 1px solid #22bebe;
-}
-.service-details .col-sm-6:nth-child(2) .item {
-    border: 1px solid #7dbb18;
-}
-.service-details .col-sm-6:nth-child(3) .item {
-    border: 1px solid #22bebe;
-}
-.service-details .col-sm-6:nth-child(4) .item {
-    border: 1px solid #ffcc00;
-}
-.service-details .col-sm-6:first-child .item-icon {
-    color: #22bebe;
-}
-.service-details .col-sm-6:nth-child(2) .item-icon {
-    color: #7dbb18;
-}
-.service-details .col-sm-6:nth-child(3) .item-icon {
-    color: #00cccc;
-}
-.service-details .col-sm-6:nth-child(4) .item-icon {
-    color: #ffcc00;
-}
-.service-details .col-sm-6:first-child .item:hover {
-    background: #22bebe;
-}
-.service-details .col-sm-6:nth-child(2) .item:hover {
-    background: #7dbb18;
-}
-.service-details .col-sm-6:nth-child(3) .item:hover {
-    background: #22bebe;
-}
-.service-details .col-sm-6:nth-child(4) .item:hover {
-    background: #ffcc00;
-}
-.service-details .item-icon {
-    font-size: 5em;
-}
-.service-details .item-description {
-    font-size: .8125em;
-    padding-top: 12px;
-}
-.service-details .item:hover .item-icon,
-.service-details .item:hover .item-description {
-    color: #ffffff;
-}
 
 
-
-
-.service-details .item-icon {
-    font-size: 3em; /* Adjust the size of the icons as needed */
-    color: #333; /* Set the color of the icons */
-}
 
 
 
