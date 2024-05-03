@@ -151,6 +151,7 @@ button:focus {
     font-weight: 300;
     padding-bottom: 12px;
     text-transform: capitalize;
+    font-family: 'Anonymous Pro', monospace;
 }
 .section-title span {
     color: #22bebe;
@@ -266,17 +267,20 @@ button:focus {
     position: relative;
     z-index: 1; /* Ensure the text appears above the overlay */
     color: #000; /* Jet black text color */
+    font-family: 'Anonymous Pro', monospace;
 }
 
 .card-content h4 {
     margin-top: 20px;
     font-size: 1.5em;
     position: relative; /* Added positioning */
+    font-family: 'Anonymous Pro', monospace;
 }
 
 .card-content p {
     margin-top: 10px;
     font-size: 1em;
+    font-family: 'Anonymous Pro', monospace;
 }
 
 .card-icon {
@@ -310,6 +314,8 @@ button:focus {
     padding: 20px;
     display: flex;
     align-items: center;
+
+
 }
 
 .about-number {
@@ -403,6 +409,10 @@ button:focus {
     padding-right: 15%;
     padding-bottom: 8px;
     font-family: 'Anonymous Pro', monospace;
+}
+
+.description-matters{
+    font-family: 'Anonymous Pro', monospace; 
 }
 /* 6 ------- Subscribe Section Styles ---------*/
 
@@ -557,6 +567,7 @@ button:focus {
 }
 .sponsors .section-title {
     font-weight: 400;
+    font-family: 'Anonymous Pro', monospace;
 }
 .sponsors .section-details {
     padding-top: 30px;
