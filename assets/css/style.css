@@ -160,6 +160,7 @@ button:focus {
     font-size: 1em;
     font-weight: 300;
     padding: 0px 15%;
+    font-family: 'Anonymous Pro', monospace;
 }
 .section-details {
     display: inline-block;
@@ -246,7 +247,6 @@ button:focus {
     padding: 15px 20px;
 }
 /* 4 ------- Services Section Styles --------*/
-
 .card {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -261,17 +261,6 @@ button:focus {
     box-shadow: 0 8px 16px rgba(0, 11, 14, 0.866);
 }
 
-.card:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.5; /* Adjust the opacity to your preference */
-    border-radius: 10px;
-}
-
 .card-content {
     text-align: center;
     position: relative;
@@ -282,6 +271,7 @@ button:focus {
 .card-content h4 {
     margin-top: 20px;
     font-size: 1.5em;
+    position: relative; /* Added positioning */
 }
 
 .card-content p {
@@ -289,31 +279,24 @@ button:focus {
     font-size: 1em;
 }
 
-.card.card-1:before {
-    background-image: url('../assets/images/IIA.jpg');
+.card-icon {
+    position: absolute;
+    top: -30px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 255, 0); /* Change to blue */
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(15, 14, 14); /* Change icon color to white */
 }
-
-.card.card-2:before {
-    background-image: url('image-2.jpg');
-}
-
-.card.card-3:before {
-    background-image: url('image-3.jpg');
-}
-
-.card.card-4:before {
-    background-image: url('image-4.jpg');
-}
-
 
 
 /* 5 -------- About Section Styles --------*/
 
-
 .about-card {
     background-color: #101010c8;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(253, 253, 253, 0.919);
+    box-shadow: 0 4px 8px rgba(1, 31, 50, 0.919);
     transition: box-shadow 0.3s ease-in-out;
     margin-top: 20px;
     overflow: hidden;
@@ -336,8 +319,8 @@ button:focus {
 }
 
 .about-icon {
-    font-size: 3em;
-    color: #f8ffff;
+    font-size: 5em;
+    color: #15cfcf;
 }
 
 .about-details {
@@ -373,9 +356,6 @@ button:focus {
 
 
 
-
-
-
 .about-breifing .about-item {
     font-size: .8125em;
     text-transform: capitalize;
@@ -385,6 +365,7 @@ button:focus {
 }
 .know-about-us .description {
     font-size: .8125em;
+    font-family: 'Anonymous Pro', monospace;
 }
 .about-top .btn {
     border: 2px solid #22bebe;
@@ -421,6 +402,7 @@ button:focus {
     font-size: .8125em;
     padding-right: 15%;
     padding-bottom: 8px;
+    font-family: 'Anonymous Pro', monospace;
 }
 /* 6 ------- Subscribe Section Styles ---------*/
 
@@ -503,6 +485,7 @@ button:focus {
 */.portfolio-bottom .section-description {
     padding: 0px 5%; /* Adjust padding for smaller screens */
     margin-bottom: 0px;
+    font-family: 'Anonymous Pro', monospace;
 }
 
 .project-items {
