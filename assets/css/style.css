@@ -298,7 +298,7 @@ button:focus {
 /* 5 -------- About Section Styles --------*/
 
 .about-card {
-    background-color: #101010c8;
+    background-color: #9f9d9dc8;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(1, 31, 50, 0.919);
     transition: box-shadow 0.3s ease-in-out;
@@ -344,7 +344,7 @@ button:focus {
 
 .about-item {
     font-size: 1em;
-    color: #eff8fa;
+    color: #effafd;
 }
 
 @media (max-width: 767px) {
@@ -590,7 +590,9 @@ button:focus {
 
 /* 11 -------- Contact Section Styles --------*/
 .contact {
-    padding: 80px 0;
+    padding: 80px 10;
+    margin-right: 20px;
+
 }
 
 .contact-inner {
