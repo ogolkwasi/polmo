@@ -247,41 +247,63 @@ button:focus {
 }
 /* 4 ------- Services Section Styles --------*/
 
-
 .card {
-    background-color: #656d6f89;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
     padding: 20px;
     margin-top: 20px;
+    position: relative;
+    background-color: #cbcbcb;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.866);
+    box-shadow: 0 8px 16px rgba(0, 11, 14, 0.866);
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5; /* Adjust the opacity to your preference */
+    border-radius: 10px;
 }
 
 .card-content {
     text-align: center;
-}
-
-.card-content i {
-    font-size: 3em;
-    color: #34f9f9;
+    position: relative;
+    z-index: 1; /* Ensure the text appears above the overlay */
+    color: #000; /* Jet black text color */
 }
 
 .card-content h4 {
     margin-top: 20px;
     font-size: 1.5em;
-    color: #2a2f30;
 }
 
 .card-content p {
     margin-top: 10px;
     font-size: 1em;
-    color: #666;
 }
 
+.card.card-1:before {
+    background-image: url('../assets/images/IIA.jpg');
+}
+
+.card.card-2:before {
+    background-image: url('image-2.jpg');
+}
+
+.card.card-3:before {
+    background-image: url('image-3.jpg');
+}
+
+.card.card-4:before {
+    background-image: url('image-4.jpg');
+}
 
 
 
