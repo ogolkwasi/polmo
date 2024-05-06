@@ -82,7 +82,7 @@ a:focus {
     outline-offset: 0;
 }
 a:hover {
-    color: #22bebe;
+    color: #d63b0c;
     text-decoration: none;
 }
 p {
@@ -115,20 +115,20 @@ textarea {
 input:focus,
 textarea:focus,
 button:focus {
-    border: 1px solid #3eaabc;
+    border: 1px solid #d63b0c;
     box-shadow: none;
     outline: 0 !important;
 }
 /* Mozilla based browsers */
 
 ::-moz-selection {
-    background-color: #22bebe;
+    background-color: #d63b0c;
     color: #ffffff;
 }
 /* Works in Safari */
 
 ::selection {
-    background-color:#22bebe ;
+    background-color:#d63b0c;
      color: #ffffff;
 }
 .btn:focus,
@@ -154,7 +154,7 @@ button:focus {
     font-family: 'Anonymous Pro', monospace;
 }
 .section-title span {
-    color: #22bebe;
+    color: #d63b0c;
     ;
 }
 .section-description {
@@ -307,7 +307,7 @@ button:focus {
 }
 
 .about-card:hover {
-    box-shadow: 0 8px 16px rgba(143, 238, 253, 0.78);
+    box-shadow: 0 8px 16px rgba(253, 159, 143, 0.78);
 }
 
 .about-content {
@@ -320,13 +320,13 @@ button:focus {
 
 .about-number {
     font-size: 2em;
-    color: #22bebe;
+    color: #d63b0c;
     margin-right: 15px;
 }
 
 .about-icon {
     font-size: 5em;
-    color: #15cfcf;
+    color: #d63b0c;
 }
 
 .about-details {
@@ -374,10 +374,10 @@ button:focus {
     font-family: 'Anonymous Pro', monospace;
 }
 .about-top .btn {
-    border: 2px solid #22bebe;
+    border: 2px solid #d63b0c;
 }
 .about-top .btn:hover {
-    background: #22bebe;
+    background: #d63b0c;
     color: #ffffff;
 }
 .progress {
@@ -389,7 +389,7 @@ button:focus {
     margin-bottom: 15px;
 }
 .progress-bar {
-    background: #22bebefe;
+    background: #d63b0c;
     font-size: 13px;
     line-height: 30px;
     padding-left: 25px;
@@ -673,7 +673,7 @@ button:focus {
 
 .form-control:focus {
     outline: none;
-    border-color: #22bebe;
+    border-color: #d63b0c;
 }
 
 textarea {
@@ -684,7 +684,7 @@ textarea {
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: #22bebe;
+    background-color: #d63b0c;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -693,7 +693,7 @@ textarea {
 }
 
 .submit-btn:hover {
-    background-color: #1a8f8f;
+    background-color: #d63b0c;
 }
 
 
@@ -718,7 +718,7 @@ textarea {
 .social-item {
     background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 113, 157, 0.794);
+    box-shadow: 0 4px 8px rgba(157, 0, 0, 0.794);
     margin-bottom: 20px;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -750,7 +750,7 @@ textarea {
     display: block;
     width: 50%;
     height: 2px;
-    background-color: #22bebe;
+    background-color: #d63b0c;
     margin: 10px auto;
 }
 
