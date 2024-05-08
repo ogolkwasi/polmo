@@ -964,3 +964,10 @@ footer .widget-title {
 .read-more{
     color: #22bebe;
 }
+
+.footer-brand {
+    float: left;
+    width: 100px; /* Adjust the width as needed to fit the logo */
+    height: auto; /* Ensure the height adjusts proportionally */
+    margin-right: 50px; /* Optional: Add some margin to separate the logo from other content */
+  }
