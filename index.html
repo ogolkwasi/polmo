@@ -512,12 +512,19 @@ closely to deliver tailored solutions that exceed expectations.
 
         <div class="contact-form wow animated fadeInRight" data-wow-delay=".75s">
             <h2 class="section-title"><span>Contact</span> Us</h2><!-- /.section-title -->
-            <form action="email.php" method="post" id="contactform" class="contactform">
-                <input id="name" class="form-control" name="name" type="text" placeholder="Name" value="" required>
-                <input id="email" class="form-control" name="email" type="email" placeholder="Email" value="" required>
-                <textarea id="message" class="form-control" name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button name="submit" class="btn submit-btn" type="submit" id="submit">Send Message</button>
-            </form><!-- /#contactform -->
+
+
+            <form action="https://formspree.io/f/xknddjqb" method="POST">
+              <label for="email">Your email:</label>
+              <input type="email" name="email" id="email" required>
+              
+              <label for="message">Your message:</label>
+              <textarea name="message" id="message" rows="5" required></textarea>
+              
+              <button type="submit">Send</button>
+            </form>
+
+            
         </div><!-- /.contact-form -->
         
         <!-- WhatsApp link -->
